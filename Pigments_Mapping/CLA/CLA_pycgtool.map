@@ -1,0 +1,28 @@
+[ CLA ]
+;pycgtool map file compatible with the PDBDatabase (PDB 5XNL used for testing)
+;hydrogens are ignored for better compatibility.
+; If using this topology, please site:
+; Chiariello, M. G., Zarmiento-Garcia, R., & Marrink, S. J. (2024). Int. J. Mol. Sci., 25(14), 7947. https://doi.org/10.3390/ijms25147947
+B0 ND C1D
+B1 NA C4A
+B2 NB C1B
+B3 NC C4C
+B4 Mg1 Mg1
+B5 C4C CHD C1D
+B6 CHA C4D CBD
+B7 C4A CHB C1B
+B8 C4B CHC C1C
+B9 C3A CMA
+B10 C3B CAB CBB
+B11 C3C CAC CBC
+B12 CGD O1D O2D CED
+B13 C2B CMB
+B14 C2C CMC
+B15 C2D C3D CMD
+B16 CAD OBD
+B17 C1A C2A
+B18 CAA CBA CGA O1A O2A
+B19 C1 C2 C3 C4 C5
+B20 C6 C7 C8 C9 C10
+B21 C11 C12 C13 C14 C15
+B22 C16 C17 C18 C19 C20
