@@ -1,0 +1,325 @@
+             SELECT Gō CONTACTS FROM PDB  FILES                               
+                                                                              
+ This software is written by:                                                 
+       Rodrigo Azevedo Moreira da Silva                                       
+       Copyright (c) 2020			                               
+                       			                               
+       IPPT-PAN                                                               
+       Institute of Fundamental Technological Research                        
+       Polish Academy of Sciences                                             
+                       			                               
+                                                                              
+
+Gō parameters
+Sequence distance:  4
+Cutoff long:  1.1
+Cutoff short:  0.3
+dCA : distance between CA centers [nm]
+R, I, C : Residue Name, Residue index from PDB file, Chain from PDB file
+
+ R1    I1 C1  R2    I2 C2        dCA  OV  rCSU
+SER     2  A GLU   162  A    0.83186  OV      
+SER     3  A GLU   162  A    0.83680      rCSU
+SER     5  A ALA     1  A    0.67248      rCSU
+PRO     6  A ARG    12  A    0.40999  OV      
+PRO     6  A VAL    13  A    0.55465  OV  rCSU
+TRP     7  A ARG    12  A    0.50984  OV      
+TRP     7  A VAL    13  A    0.63592  OV  rCSU
+TRP     7  A TYR    35  A    0.79901  OV      
+TRP     7  A GLU   166  A    0.79101      rCSU
+TRP     7  A VAL   169  A    0.72691  OV  rCSU
+TRP     7  A LYS   173  A    1.07960  OV      
+TYR     8  A ARG    12  A    0.52913  OV      
+TYR     8  A GLY    29  A    0.48340  OV      
+TYR     8  A GLU    30  A    0.57403  OV      
+TYR     8  A PHE    31  A    0.70480  OV      
+TYR     8  A PRO    32  A    0.70970  OV      
+TYR     8  A ALA   165  A    0.87564  OV  rCSU
+TYR     8  A VAL   169  A    0.93637  OV  rCSU
+GLY     9  A GLY    29  A    0.45478  OV  rCSU
+PRO    10  A LYS    14  A    1.01754  OV  rCSU
+ARG    12  A LEU    27  A    1.09824  OV  rCSU
+ARG    12  A THR    28  A    0.95181  OV  rCSU
+ARG    12  A GLY    29  A    0.68580  OV      
+ARG    12  A ASP    34  A    0.81851  OV  rCSU
+ARG    12  A GLY    36  A    0.87629  OV      
+VAL    13  A TYR    35  A    0.62228  OV  rCSU
+LYS    14  A SER    20  A    0.61282  OV      
+LYS    14  A GLY    21  A    0.89994      rCSU
+LYS    14  A SER    23  A    0.87384  OV  rCSU
+LYS    14  A TYR    35  A    0.41140  OV      
+LYS    14  A GLY    36  A    0.55266  OV      
+TYR    15  A SER    20  A    0.63783  OV  rCSU
+TYR    15  A TYR    35  A    0.51750  OV  rCSU
+TYR    15  A GLY    36  A    0.66594  OV      
+TYR    15  A TRP    37  A    0.65175  OV  rCSU
+LEU    16  A SER    20  A    0.46217  OV      
+SER    23  A GLY    36  A    0.52720  OV  rCSU
+PRO    24  A GLY    36  A    0.66867  OV      
+PRO    24  A ASP    38  A    0.67597  OV      
+TYR    26  A ASP    38  A    0.95331  OV  rCSU
+TYR    26  A GLY    41  A    1.00246  OV      
+TYR    26  A SER    43  A    0.82220  OV      
+TYR    26  A ALA    44  A    0.66674  OV      
+TYR    26  A PHE    49  A    0.90942  OV      
+LEU    27  A ASP    34  A    0.68055  OV      
+LEU    27  A GLY    36  A    0.57536  OV      
+LEU    27  A TRP    37  A    0.78344  OV      
+LEU    27  A ASP    38  A    0.82015  OV      
+LEU    27  A PHE    49  A    0.98030  OV  rCSU
+THR    28  A ASP    34  A    0.80171  OV      
+GLY    29  A ASP    34  A    0.55248  OV  rCSU
+PHE    31  A PHE    49  A    1.06275  OV  rCSU
+PHE    31  A ARG    53  A    0.89993  OV      
+PRO    32  A VAL    57  A    1.00994      rCSU
+PRO    32  A LYS   168  A    0.58299  OV  rCSU
+PRO    32  A VAL   169  A    0.49820  OV  rCSU
+PRO    32  A LEU   172  A    0.72551  OV      
+GLY    33  A VAL   169  A    0.55054  OV      
+GLY    33  A LEU   172  A    0.61465  OV      
+GLY    33  A ARG   176  A    0.93695  OV  rCSU
+ASP    34  A GLU    30  A    0.73886      rCSU
+TYR    35  A LYS   173  A    1.06268  OV  rCSU
+TRP    37  A SER    43  A    0.98475      rCSU
+ASP    38  A LEU    42  A    0.67968  OV  rCSU
+ASP    38  A SER    43  A    0.70771  OV  rCSU
+LEU    42  A THR    48  A    0.76378  OV      
+LEU    42  A ASN    52  A    0.84015  OV      
+SER    43  A PHE    49  A    0.41747  OV      
+SER    43  A ASN    52  A    0.69674  OV      
+ASP    45  A PHE    49  A    0.59510  OV  rCSU
+PRO    46  A SER    50  A    0.62765  OV  rCSU
+PRO    46  A ARG    53  A    1.07140      rCSU
+GLU    47  A LYS    51  A    0.64891  OV  rCSU
+THR    48  A ASN    52  A    0.62204  OV  rCSU
+PHE    49  A ARG    53  A    0.62375  OV  rCSU
+SER    50  A GLU    54  A    0.65877  OV  rCSU
+LYS    51  A LEU    55  A    0.62038  OV  rCSU
+ASN    52  A GLU    56  A    0.59674  OV  rCSU
+ARG    53  A VAL    57  A    0.61261  OV  rCSU
+ARG    53  A LEU   146  A    0.90877  OV  rCSU
+GLU    54  A ILE    58  A    0.60300  OV  rCSU
+GLU    54  A LEU   146  A    0.66194  OV  rCSU
+LEU    55  A HIS    59  A    0.58891  OV  rCSU
+GLU    56  A SER    60  A    0.59643  OV  rCSU
+GLU    56  A LEU   172  A    0.81439  OV      
+GLU    56  A ARG   176  A    0.83126  OV  rCSU
+GLU    56  A MET   179  A    0.94242  OV  rCSU
+VAL    57  A ARG    61  A    0.63503  OV      
+VAL    57  A LEU   146  A    0.73588  OV  rCSU
+VAL    57  A TYR   147  A    0.97287  OV      
+VAL    57  A GLU   171  A    0.81428  OV      
+VAL    57  A LEU   172  A    0.65773  OV  rCSU
+ILE    58  A TRP    62  A    0.63509  OV  rCSU
+ILE    58  A ARG   133  A    1.10000  OV      
+ILE    58  A LEU   146  A    0.76801  OV  rCSU
+HIS    59  A ALA    63  A    0.58768  OV  rCSU
+HIS    59  A MET   179  A    0.74008  OV  rCSU
+SER    60  A MET    64  A    0.60737  OV  rCSU
+SER    60  A LEU   172  A    0.66576  OV      
+SER    60  A GLY   175  A    0.40492  OV      
+SER    60  A ARG   176  A    0.60832  OV      
+SER    60  A MET   179  A    0.62792  OV      
+ARG    61  A LEU    65  A    0.64893  OV  rCSU
+ARG    61  A LEU   146  A    1.05228  OV  rCSU
+ARG    61  A GLU   171  A    0.81163  OV  rCSU
+TRP    62  A GLY    66  A    0.61052  OV  rCSU
+ALA    63  A ALA    67  A    0.58469  OV  rCSU
+ALA    63  A ALA   178  A    0.53906  OV      
+ALA    63  A MET   179  A    0.52678  OV  rCSU
+ALA    63  A MET   182  A    0.68214  OV      
+MET    64  A LEU    68  A    0.63534  OV  rCSU
+MET    64  A GLU   171  A    0.94222  OV      
+MET    64  A ASN   174  A    0.75078  OV  rCSU
+MET    64  A GLY   175  A    0.58133  OV      
+MET    64  A ALA   178  A    0.52638  OV  rCSU
+LEU    65  A GLY    69  A    0.57226  OV  rCSU
+GLY    66  A SER    70  A    0.55709  OV  rCSU
+GLY    66  A MET   182  A    0.76367  OV      
+ALA    67  A VAL    71  A    0.62791  OV  rCSU
+ALA    67  A ALA   178  A    0.59783  OV  rCSU
+ALA    67  A MET   182  A    0.63400  OV  rCSU
+ALA    67  A PHE   185  A    0.86712      rCSU
+LEU    68  A PHE    72  A    0.58503  OV  rCSU
+GLY    69  A PRO    73  A    0.72870  OV      
+SER    70  A TRP    88  A    0.49920  OV      
+SER    70  A PHE   185  A    0.88166  OV      
+VAL    71  A LEU    75  A    0.60377  OV  rCSU
+VAL    71  A PHE   185  A    0.96964  OV  rCSU
+VAL    71  A PRO   196  A    0.75254      rCSU
+VAL    71  A LEU   197  A    0.72559  OV  rCSU
+PHE    72  A LEU    76  A    0.62516  OV  rCSU
+PRO    73  A SER    77  A    0.60082  OV  rCSU
+PRO    73  A PHE    83  A    0.76503  OV  rCSU
+PRO    73  A ALA    86  A    0.50435  OV      
+PRO    73  A ALA    91  A    0.91216      rCSU
+GLU    74  A ARG    78  A    0.64390  OV      
+GLU    74  A ALA    86  A    0.47895  OV      
+GLU    74  A VAL    87  A    0.55752  OV  rCSU
+GLU    74  A GLY   195  A    0.75879  OV      
+GLU    74  A PRO   196  A    0.85672  OV      
+GLU    74  A LEU   197  A    0.70289  OV  rCSU
+GLU    74  A GLU   198  A    0.87387  OV  rCSU
+LEU    75  A ASN    79  A    0.66841  OV  rCSU
+LEU    75  A LEU   197  A    0.72019  OV  rCSU
+LEU    76  A GLY    80  A    0.65994  OV  rCSU
+LEU    76  A VAL    81  A    0.54423  OV  rCSU
+LEU    76  A PHE    83  A    0.90302  OV  rCSU
+LEU    76  A LEU   104  A    0.90677  OV  rCSU
+SER    77  A VAL    81  A    0.46253  OV      
+SER    77  A PHE    83  A    0.68743  OV  rCSU
+SER    77  A ALA    86  A    0.63659  OV      
+ARG    78  A LEU   197  A    0.89835  OV      
+ARG    78  A GLU   198  A    0.92339  OV      
+ARG    78  A ALA   201  A    1.06689  OV      
+VAL    81  A LEU   104  A    0.73584  OV  rCSU
+LYS    82  A LEU   104  A    0.70923      rCSU
+LYS    82  A GLY   105  A    0.56726  OV      
+PHE    83  A LEU   104  A    0.57910  OV  rCSU
+PHE    83  A GLY   105  A    0.43935  OV      
+GLY    84  A GLN    94  A    0.60311  OV  rCSU
+GLU    85  A LYS    90  A    0.65409  OV  rCSU
+GLU    85  A GLN    94  A    0.65395  OV  rCSU
+VAL    87  A ALA    91  A    0.59670  OV  rCSU
+VAL    87  A GLY   195  A    0.55269  OV      
+TRP    88  A GLY    92  A    0.79268      rCSU
+TRP    88  A PHE   185  A    0.94292  OV      
+TRP    88  A PHE   186  A    1.01601  OV  rCSU
+TRP    88  A ALA   189  A    0.92762  OV  rCSU
+TRP    88  A PRO   196  A    0.88128  OV      
+PHE    89  A ALA   189  A    0.75417  OV  rCSU
+PHE    89  A GLY   193  A    0.95979  OV      
+PHE    89  A LYS   194  A    0.92041  OV      
+PHE    89  A GLY   195  A    0.81487  OV      
+SER    93  A SER    97  A    0.71916      rCSU
+GLN    94  A GLY   100  A    0.61945  OV      
+GLN    94  A LEU   101  A    0.57206  OV      
+ILE    95  A LEU   101  A    0.49362  OV  rCSU
+ILE    95  A ALA   112  A    0.67867  OV      
+ILE    95  A SER   114  A    0.69711  OV      
+ILE    95  A ILE   115  A    0.67469  OV      
+ILE    95  A ILE   118  A    0.99990  OV  rCSU
+PHE    96  A ILE   115  A    0.82087  OV  rCSU
+GLY    99  A HIS   111  A    0.79033  OV      
+GLY    99  A GLN   113  A    0.75889  OV  rCSU
+GLY   100  A ALA   112  A    0.55890  OV      
+GLY   100  A GLN   113  A    0.48029  OV  rCSU
+LEU   101  A VAL   110  A    0.72554      rCSU
+LEU   101  A HIS   111  A    0.53106  OV  rCSU
+LEU   101  A ALA   112  A    0.48784  OV  rCSU
+ASP   102  A ASN   106  A    0.51681  OV      
+ASP   102  A PRO   107  A    0.53274  OV      
+ASP   102  A LEU   109  A    0.59298  OV      
+ASP   102  A HIS   111  A    0.48780  OV  rCSU
+TYR   103  A LEU   109  A    0.52146  OV      
+TYR   103  A VAL   110  A    0.60188  OV  rCSU
+LEU   104  A LEU   109  A    0.75718  OV  rCSU
+PRO   107  A HIS   111  A    0.55613  OV      
+ALA   112  A ILE   118  A    0.81474  OV  rCSU
+SER   114  A ILE   118  A    0.67925  OV  rCSU
+ILE   115  A TRP   119  A    0.61109  OV  rCSU
+LEU   116  A ALA   120  A    0.59742  OV  rCSU
+ALA   117  A THR   121  A    0.62458  OV  rCSU
+ILE   118  A GLN   122  A    0.59618  OV  rCSU
+TRP   119  A VAL   123  A    0.60316  OV  rCSU
+ALA   120  A ILE   124  A    0.63930  OV  rCSU
+THR   121  A LEU   125  A    0.59574  OV  rCSU
+GLN   122  A MET   126  A    0.56103  OV  rCSU
+VAL   123  A GLY   127  A    0.56319  OV  rCSU
+ILE   124  A ALA   128  A    0.61128  OV  rCSU
+LEU   125  A VAL   129  A    0.62147  OV  rCSU
+MET   126  A GLU   130  A    0.58298  OV  rCSU
+GLY   127  A GLY   131  A    0.59986  OV  rCSU
+ALA   128  A TYR   132  A    0.61741  OV  rCSU
+VAL   129  A ARG   133  A    0.62056  OV  rCSU
+GLU   130  A ILE   134  A    0.67112  OV  rCSU
+GLY   131  A ALA   135  A    0.64403  OV  rCSU
+TYR   132  A GLY   136  A    0.45392  OV  rCSU
+TYR   132  A GLY   137  A    0.46755  OV      
+TYR   132  A PRO   138  A    0.75431  OV  rCSU
+TYR   132  A VAL   142  A    0.84057  OV      
+ARG   133  A VAL   142  A    0.71338  OV      
+ILE   134  A VAL   142  A    0.68574  OV      
+ALA   135  A VAL   142  A    0.60255  OV  rCSU
+GLY   136  A GLY   140  A    0.56783  OV      
+GLY   136  A GLU   141  A    0.39947  OV      
+GLY   136  A VAL   142  A    0.49746  OV      
+GLY   137  A GLU   141  A    0.60604      rCSU
+LEU   139  A SER   151  A    0.62330  OV  rCSU
+LEU   139  A PHE   152  A    0.84470  OV  rCSU
+VAL   142  A PRO   148  A    0.65655      rCSU
+ASP   144  A PRO   148  A    0.51379  OV      
+TYR   147  A PHE   164  A    1.01199  OV  rCSU
+TYR   147  A LYS   168  A    0.90842  OV  rCSU
+PRO   148  A PHE   152  A    0.66181  OV  rCSU
+GLY   149  A ASP   153  A    0.45840  OV      
+ASP   153  A LEU   157  A    0.66691  OV  rCSU
+ASP   153  A ALA   158  A    0.71256  OV  rCSU
+GLY   156  A ASP   160  A    0.79846      rCSU
+LEU   157  A LEU   167  A    0.85307  OV  rCSU
+ALA   158  A PHE   164  A    0.44064  OV  rCSU
+ALA   158  A LEU   167  A    0.72748  OV  rCSU
+ASP   160  A PHE   164  A    0.59749  OV  rCSU
+PRO   161  A ALA   165  A    0.62512  OV  rCSU
+GLU   162  A GLU   166  A    0.66127  OV  rCSU
+ALA   163  A LEU   167  A    0.62014  OV  rCSU
+PHE   164  A LYS   168  A    0.60832  OV  rCSU
+ALA   165  A VAL   169  A    0.67149  OV  rCSU
+GLU   166  A LYS   170  A    0.63237  OV  rCSU
+LEU   167  A GLU   171  A    0.59616  OV  rCSU
+LYS   168  A LEU   172  A    0.62669  OV  rCSU
+VAL   169  A LYS   173  A    0.60326  OV  rCSU
+LYS   170  A ASN   174  A    0.61331  OV  rCSU
+GLU   171  A GLY   175  A    0.59538  OV  rCSU
+LEU   172  A ARG    53  A    0.99783      rCSU
+LEU   172  A ARG   176  A    0.59818  OV  rCSU
+LYS   173  A LEU   177  A    0.63035  OV  rCSU
+ASN   174  A ALA   178  A    0.61875  OV  rCSU
+GLY   175  A MET   179  A    0.61314  OV  rCSU
+ARG   176  A PHE   180  A    0.60655  OV  rCSU
+LEU   177  A SER   181  A    0.61075  OV  rCSU
+ALA   178  A MET   182  A    0.60290  OV  rCSU
+MET   179  A PHE   183  A    0.63186  OV  rCSU
+PHE   180  A GLY   184  A    0.64486  OV  rCSU
+SER   181  A PHE   185  A    0.60840  OV  rCSU
+MET   182  A PHE   186  A    0.62181  OV  rCSU
+PHE   183  A VAL   187  A    0.62409  OV  rCSU
+GLY   184  A GLN   188  A    0.57519  OV  rCSU
+PHE   185  A ALA   189  A    0.59059  OV  rCSU
+PHE   185  A PRO   196  A    0.62087  OV  rCSU
+PHE   186  A ILE   190  A    0.62277  OV  rCSU
+VAL   187  A VAL   191  A    0.60238  OV  rCSU
+GLN   188  A THR   192  A    0.54449  OV  rCSU
+GLN   188  A GLY   193  A    0.72848  OV      
+GLN   188  A PRO   196  A    0.68941  OV      
+GLN   188  A ASN   199  A    0.79889  OV  rCSU
+ALA   189  A GLY   193  A    0.50018  OV  rCSU
+ILE   190  A PHE   219  A    1.09813      rCSU
+VAL   191  A TYR   215  A    0.72234  OV  rCSU
+VAL   191  A ASN   218  A    0.85958      rCSU
+VAL   191  A PHE   219  A    0.89492  OV  rCSU
+THR   192  A ASN   199  A    0.77054  OV  rCSU
+THR   192  A TYR   215  A    0.76690  OV  rCSU
+LYS   194  A GLU   198  A    0.63041  OV  rCSU
+LYS   194  A ASN   199  A    0.67409  OV      
+LYS   194  A ASP   202  A    0.99652  OV  rCSU
+GLY   195  A ASN   199  A    0.62074  OV  rCSU
+PRO   196  A LEU   200  A    0.64743  OV  rCSU
+LEU   197  A ALA   201  A    0.62706  OV  rCSU
+GLU   198  A ASP   202  A    0.60630  OV  rCSU
+ASN   199  A HIS   203  A    0.59526  OV  rCSU
+LEU   200  A LEU   204  A    0.60442  OV  rCSU
+ALA   201  A ALA   205  A    0.61332  OV  rCSU
+ASP   202  A ASP   206  A    0.67805  OV      
+ASP   202  A ASN   210  A    0.62065  OV  rCSU
+HIS   203  A PRO   207  A    0.48837  OV      
+HIS   203  A ASN   210  A    0.48751  OV  rCSU
+HIS   203  A ASN   211  A    0.58643  OV  rCSU
+ASP   206  A ASN   210  A    0.55481  OV  rCSU
+PRO   207  A ASN   211  A    0.65623  OV  rCSU
+ASN   209  A SER   214  A    0.69456  OV  rCSU
+ASN   210  A SER   214  A    0.65913      rCSU
+ASN   211  A TYR   215  A    0.77774  OV      
+ALA   212  A VAL   191  A    0.85884      rCSU
+ALA   212  A ALA   216  A    0.68383  OV  rCSU
+SER   214  A ASN   218  A    0.84974      rCSU
