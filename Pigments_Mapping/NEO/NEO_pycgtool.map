@@ -1,0 +1,17 @@
+[ NEX ]
+;NEX is the resname given in the PDBDatabase and NEO in the Martini 3 force field
+;pycgtool map file compatible with the PDBDatabase (PDB 5XNL used for testing)
+;hydrogens are ignored for better compatibility
+; If using this topology, please site:
+; Chiariello, M. G., Zarmiento-Garcia, R., & Marrink, S. J. (2024). Int. J. Mol. Sci., 25(14), 7947. https://doi.org/10.3390/ijms25147947
+B0 C5 C18 O4
+B1 C2 C3 C4 O3
+B2 C1 C16 C17
+B3 C6 C7 C8
+B4 C9 C10 C11 C12 C19
+B5 C13 C14 C15 C20 C35
+B6 C34 C33 C32 C31 C40
+B7 C30 C29 C28 C27 C39
+B8 C21 C36 C37
+B9 C22 C23 C24 O23
+B10 C26 C25 C38 O24
