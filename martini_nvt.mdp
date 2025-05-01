@@ -1,0 +1,45 @@
+title                    = Martini
+integrator               = md
+dt                       = 0.01
+nsteps                   = 6000000000 ;= 40000ps
+nstcomm                  = 100
+; OUTPUT CONTROL OPTIONS = 
+nstlog                   = 10000  ; Output frequency for energies to log file 
+nstenergy                = 10000   ; Output frequency for energies to energy file
+nstxtcout                = 10000  ; Output frequency for .xtc file
+xtc_precision            = 10000
+energygrps               = lhc lipids W_ION
+; NEIGHBOURLIST and MARTINI 
+nstlist                  = 10
+ns_type                  = grid
+pbc                      = xyz
+rlist                    = 1.4
+; MARTINI and NONBONDED 
+cutoff-scheme            = verlet
+coulombtype              = cutoff  ;Reaction_field (for use with Verlet-pairlist) ;PME (especially with polarizable water)
+rcoulomb_switch          = 0.0
+rcoulomb                 = 1.2
+epsilon_r                = 15	; 2.5 (with polarizable water)
+vdw_type                 = cutoff  ;cutoff (for use with Verlet-pairlist)   
+rvdw_switch              = 0.9
+rvdw                     = 1.2	;1.1 (for use with Verlet-pairlist)
+; MARTINI and TEMPERATURE/PRESSURE
+tcoupl                   = v-rescale 
+tc-grps                  = lhc lipids W_ION 
+tau_t                    = 1.0  1.0   1.0 
+ref_t                    = 293  293   293
+Pcoupl                   = no ; parrinello-rahman
+Pcoupltype               = semiisotropic
+tau_p                    = 3  ;parrinello-rahman is more stable with larger tau-p, DdJ, 20130422
+compressibility          = 3e-4 3e-4 ; 3e-4
+ref_p                    = 1.0  1.0  ; 1.0 1.0
+gen_vel                  = no
+gen_temp                 = 293
+gen_seed                 = 473529
+refcoord-scaling        = COM 
+; MARTINI and CONSTRAINTS 
+constraints              = none
+constraint_algorithm     = Lincs
+continuation             = no
+lincs_order              = 4
+lincs_warnangle          = 30
