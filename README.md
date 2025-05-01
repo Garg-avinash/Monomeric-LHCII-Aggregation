@@ -2,6 +2,7 @@
 We present the GROMACS input files, GoMartini 3 modelling with parameter files and contact map files, pigment mapping, and simulation trajectory.
 We have simulated 16 monomers of LHCII in the plant thylakoid membrane using GōMartini 3 with virtual site implementations.
 
+
 References: 
 1. Souza, P.C., Borges-Araújo, L., Brasnett, C., Moreira, R.A., Grünewald, F., Park, P., Wang, L., Razmazma, H., Borges-Araújo, A.C., Cofas-Vargas, L.F. and Monticelli, L., 2024. GōMartini 3: from large conformational changes in proteins to environmental bias corrections. BioRxiv, pp.2024-04.
 2. Chiariello, M.G., Zarmiento-Garcia, R. and Marrink, S.J., 2024. Martini 3 Coarse-Grained Model for the Cofactors Involved in Photosynthesis. International Journal of Molecular Sciences, 25(14), p.7947.
