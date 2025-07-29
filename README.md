@@ -1,4 +1,4 @@
-# Monomeric-LHCII-Aggregation
+# LHCII-Aggregation
 We present the GROMACS input files, GoMartini 3 modelling with parameter files and contact map files, pigment mapping, and simulation trajectory for LHCII simulation in plant thylakoid membrane.
 We have simulated 16 monomers of LHCII in the plant thylakoid membrane using GōMartini 3 with virtual site implementations.
 
